@@ -1,0 +1,37 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <item
+        android:id="@+id/menuBtnTrending"
+        android:title="Trending"
+        android:icon="@mipmap/camera"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <item
+        android:id="@+id/menuBtnTop"
+        android:title="Top"
+        android:icon="@mipmap/thumb_up"
+        app:showAsAction="ifRoom"
+        >
+        </item>
+    <item
+        android:id="@+id/menuBtnSearch"
+        android:title="Search"
+        android:icon="@mipmap/search"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <item
+        android:id="@+id/menuBtnLogin"
+        android:title="Login"
+        >
+    </item>
+    <item
+        android:id="@+id/menuBtnRegister"
+        android:title="Register"
+        >
+    </item>
+</menu>
